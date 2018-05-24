@@ -77,6 +77,6 @@ def get_code(username, token, phone):
 
 if __name__ == "__main__":
     # print login("asdqwer", "123")
-    token = "54f78da204cc3c7825287c7be1bcf017"
-    print get_phone(693, 'asdpwd123', token)
+    token = ""
+    print get_phone(693, 'asdqwer', token)
     get_code()
